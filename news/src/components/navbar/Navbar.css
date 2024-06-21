@@ -1,0 +1,11 @@
+.navbar {
+  height: 100px;
+}
+
+.heading {
+  cursor: pointer;
+}
+
+.heading:hover {
+  color: coral;
+}
