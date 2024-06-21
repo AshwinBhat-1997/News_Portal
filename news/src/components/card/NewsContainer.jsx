@@ -18,7 +18,7 @@ function NewsContainer() {
       {loading === true && (
         <h1 className="py-5 text-center fs-3">Loading...</h1>
       )}
-      <div className="col-10 mx-auto d-flex flex-wrap my-5 gap-4">
+      <div className="col-10 mx-auto d-flex flex-wrap justify-content-center my-5 gap-4">
         {data &&
           data.news.map((data) => (
             <NewsCard
